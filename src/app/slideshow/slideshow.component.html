@@ -1,7 +1,7 @@
 <div class="container">
-  <li *ngFor="let item of slideData">
-    <img src="{{ item.artist.image }}" alt="" />
-    {{ item.artist.name }}
-    {{ item.name }}
-  </li>
+  <div class="" *ngFor="let item of slideData">
+    <div class="artistName">{{ item.artist.name }}</div>
+    <div class="paintingName">{{ item.name }}</div>
+    <img class="images" src="{{ item.images.thumbnail }}" alt="" />
+  </div>
 </div>
